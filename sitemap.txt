@@ -1,8 +1,12 @@
----
-# Remember to set production_url in your _config.yml file!
-title : Sitemap
----
-{% for page in site.pages %}
-{{site.production_url}}{{ page.url }}{% endfor %}
-{% for post in site.posts %}
-{{site.production_url}}{{ post.url }}{% endfor %}
+
+http://mono6823.github.io/archive.html
+http://mono6823.github.io/atom.xml
+http://mono6823.github.io/categories.html
+http://mono6823.github.io/code.html
+http://mono6823.github.io/index.html
+http://mono6823.github.io/pages.html
+http://mono6823.github.io/rss.xml
+http://mono6823.github.io/sitemap.txt
+http://mono6823.github.io/tags.html
+
+http://mono6823.github.io/lessons/2011/12/29/jekyll-introduction
