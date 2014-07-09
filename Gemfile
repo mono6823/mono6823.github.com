@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+gem 'jekyll'
+gem 'kramdown'
+gem 'coderay'
+gem 'rake'
+gem 'thor'
+gem 'activesupport'
+gem 'stringex'
+gem 'coffee-script'
+gem 'execjs'
+gem 'therubyracer'
+gem 'libv8', '~> 3.11.8'
