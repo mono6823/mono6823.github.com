@@ -4,4 +4,9 @@ permalink: /posts/
 title: All Posts
 tagline: A List of Posts
 tags: [blog]
+image:
+  feature: texture_0005.jpg
 ---
+
+# テスト
+
