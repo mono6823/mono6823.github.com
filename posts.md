@@ -8,5 +8,4 @@ image:
   feature: texture_0005.jpg
 ---
 
-# テスト
 

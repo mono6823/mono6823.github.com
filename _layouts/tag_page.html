@@ -1,0 +1,18 @@
+---
+layout: page
+image:
+  feature: texture_0010.jpg
+---
+
+<h2>{{ page.tag }}</h2>
+<ul>
+{% for post in page.posts %}
+  <li><a href="{{ post.url }}" style="font-size:140%;">{{ post.title }}</a> ({{ post.date | date_to_string }})<br />Tags: {{ post | tags }}</li>
+{% endfor %}
+</ul>
+
+<h2>Tags</h2>
+<div id="tag-cloud">
+  {{ site | tag_cloud }}
+</div>
+

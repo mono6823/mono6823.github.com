@@ -11,3 +11,5 @@ gem 'coffee-script'
 gem 'execjs'
 gem 'therubyracer'
 gem 'libv8', '~> 3.11.8'
+gem 'jekyll-tagging'
+
